@@ -14,7 +14,7 @@ export const Nav = styled.nav`
     z-index: 10;
 
     @media screen and (max-width: 960px) {
-        transitionL 0.8s all ease;
+        transition: 0.8s all ease;
     }
 `
 
@@ -32,8 +32,8 @@ export const NavLogo = styled(LinkR)`
     color: #fff;
     justify-self: flex-start;
     cursor: pointer;
-    font-size: 1.5rem;
-    displau: flex;
+    font-size: 2rem;
+    display: flex;
     align-items: center;
     margin-left: 24px;
     font-weight: bold;
@@ -80,6 +80,10 @@ export const NavLinks = styled(LinkS)`
     height: 100%;
     cursor: pointer;
 
+    &:hover {
+        color: #5524c9;
+    }
+
     &.active {
         border-bottom: 3px solid #01bf71;
     }
@@ -88,6 +92,8 @@ export const NavLinks = styled(LinkS)`
 export const NavBtn = styled.nav`
     display: flex;
     align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
 
     @media screen and (max-wodth: 768px) {
         display: none;
@@ -96,10 +102,10 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
     border-radius: 50px;
-    background: #01bf71;
+    background: #5524c9;
     white-space: nowrap;
     padding: 10px 22px;
-    color: #010606;
+    color: white;
     font-size: 16px;
     outline: none;
     border: none;
