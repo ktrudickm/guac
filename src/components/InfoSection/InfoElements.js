@@ -6,6 +6,7 @@ export const InfoContainer = styled.div`
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
+        height: 1300px;
     }
 `
 
@@ -92,6 +93,6 @@ export const ImgWrap = styled.div`
 
 export const Img = styled.img`
     width: 100%;
-    margin: 0 0 10px 0;
+    margin: -70px 0 10px 0;
     padding-right: 0;
 `

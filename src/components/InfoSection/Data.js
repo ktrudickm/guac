@@ -8,28 +8,28 @@ export const homeObjOne = {
     description: 'We aim to remove the intimidating factors that are associated with finance and the investment world in general. We strive to give people the baseline knowledge in financial literacy so they can make the correct and adequate financial decisions with confidence. ',
     buttonLabel: 'Get Started',
     imgStart: false,
-    img: require('../../images/avocado.png'),
-    alt: 'Avo',
+    img: require('../../images/avocado.png').default,
+    alt: 'Avocado',
     dark: true,
     primary: true,
     darkText: false
 }
 
 export const homeObjTwo = {
-    id: 'features',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topLine: '$GUAC Token:',
+    id: 'token',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'The $GUAC Token',
     headline: 'The $Guac Token is the native assest to the Avocado ecosystem. ',
-    description: '*Insert detailed description here: governance rights, product discounts, staking rewards, become verified.*',
+    description: '*Insert detailed description here*',
     buttonLabel: 'Get Started',
     imgStart: true,
-    img: require('../../images/avocado.png'),
+    img: require('../../images/Tokenomics.png').default,
     alt: 'token',
-    dark: false,
-    primary: false,
-    darkText: true
+    dark: true,
+    primary: true,
+    darkText: false
 }
 
 export const homeObjThree = {

@@ -23,3 +23,4 @@ export const Button = styled(Link)`
         background: ${({primary}) => (primary ? '#fff' : '#01BF71')};
     }
 `
+
