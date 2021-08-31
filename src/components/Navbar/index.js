@@ -32,6 +32,9 @@ const Navbar = ({ toggle }) => {
                             <NavLinks to='token'>Token</NavLinks>
                         </NavItem>
                         <NavItem>
+                            <NavLinks to='roadmap'>Roadmap</NavLinks>
+                        </NavItem>
+                        <NavItem>
                             <NavLinks to='team'>Team</NavLinks>
                         </NavItem>
                         <NavBtn>
