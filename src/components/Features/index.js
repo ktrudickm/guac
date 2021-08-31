@@ -1,7 +1,7 @@
 import React from 'react'
-import Icon1 from '../../images/avocado.png'
-import Icon2 from '../../images/avocado.png'
-import Icon3 from '../../images/avocado.png'
+import Icon1 from '../../images/gov.svg'
+import Icon2 from '../../images/digitalcurrency.svg'
+import Icon3 from '../../images/savings.svg'
 import Icon4 from '../../images/avocado.png'
 
 import {

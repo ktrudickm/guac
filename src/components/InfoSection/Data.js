@@ -21,7 +21,7 @@ export const homeObjTwo = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'The $GUAC Token',
-    headline: 'The $Guac Token is the native assest to the Avocado ecosystem. ',
+    headline: 'The $Guac Token is the native asset to the Avocado ecosystem. ',
     description: '*Insert detailed description here*',
     buttonLabel: 'Get Started',
     imgStart: true,
