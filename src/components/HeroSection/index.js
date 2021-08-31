@@ -19,7 +19,10 @@ const HeroSection = () => {
                 <HeroH1>Where Social Investing Meets Blockchain Technology.</HeroH1>
                 <HeroP>An Avocado project powered by Cardano.</HeroP>
                 <HeroBtnWrapper>
-                    <Button to='learn' onMouseEnter={onHover} onMouseLeave={onHover}>
+                    <Button to='learn' onMouseEnter={onHover} 
+                    onMouseLeave={onHover}
+                    
+                    >
                         Learn More {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                     <Button to='buy' onMouseEnter={onHover} onMouseLeave={onHover}>
