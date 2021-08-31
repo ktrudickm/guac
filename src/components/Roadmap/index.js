@@ -16,7 +16,7 @@ RoadmapP
 
 const Roadmap = () => {
     return (
-        <RoadmapContainer id='roadmap'>
+        <RoadmapContainer id='features'>
             <RoadmapH1>Features</RoadmapH1>
             <RoadmapWrapper>
                 <RoadmapCard>
