@@ -1,10 +1,11 @@
 import React, {useState} from 'react'
 import HeroSection from '../components/HeroSection'
 import InfoSection from '../components/InfoSection'
-import { homeObjOne, homeObjThree, homeObjTwo } from '../components/InfoSection/Data'
+import { homeObjOne, homeObjTwo } from '../components/InfoSection/Data'
 import Navbar from '../components/Navbar'
 import Features from '../components/Features'
 import Sidebar from '../components/SideBar'
+import Roadmap from '../components/Roadmap'
 
 const Home = () => {
 
@@ -22,6 +23,7 @@ const Home = () => {
            <InfoSection {...homeObjOne}/>
            <Features />
            <InfoSection {...homeObjTwo}/>
+           <Roadmap />
         </>
     )
 }
