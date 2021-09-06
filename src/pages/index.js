@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar'
 import Features from '../components/Features'
 import Sidebar from '../components/SideBar'
 import Roadmap from '../components/Roadmap'
+// import Mailchimp from '../components/Signup/index'
 
 const Home = () => {
 
@@ -24,6 +25,7 @@ const Home = () => {
            <Features />
            <InfoSection {...homeObjTwo}/>
            <Roadmap />
+           {/* <Mailchimp /> */}
         </>
     )
 }

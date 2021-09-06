@@ -34,9 +34,9 @@ const Navbar = ({ toggle }) => {
                         <NavItem>
                             <NavLinks to='roadmap' smooth={true} offset={90} duration={1000}>Roadmap</NavLinks>
                         </NavItem>
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLinks to='team'>Team</NavLinks>
-                        </NavItem>
+                        </NavItem> */}
                         <NavBtn>
                             <NavBtnLink to='/buy'>Buy GUAC</NavBtnLink>
                         </NavBtn>

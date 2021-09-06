@@ -23,7 +23,7 @@ const Sidebar = ({isOpen, toggle}) => {
                        <SidebarLink to='features' offset={-50} onClick={toggle}>Features</SidebarLink>
                        <SidebarLink to='token' onClick={toggle}>Token</SidebarLink>
                        <SidebarLink to='roadmap' offset={340} onClick={toggle}>Roadmap</SidebarLink>
-                       <SidebarLink to='team' onClick={toggle}>Team</SidebarLink>
+                       {/* <SidebarLink to='team' onClick={toggle}>Team</SidebarLink> */}
                    </SidebarMenu>
                    <SideBtnWrap>
                        <SidebarRoute to='/buy'>Buy GUAC</SidebarRoute>
