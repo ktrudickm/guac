@@ -30,6 +30,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                             <Subtitle darkText={darkText}>{description}</Subtitle>
                             <BtnWrap btnDisplay={btnDisplay}>
                                 <BtnLink to='/app'
+                                target="_blank"
                                 smooth={true}
                                 duration={500}
                                 spy={true}

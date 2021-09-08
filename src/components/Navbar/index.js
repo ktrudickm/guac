@@ -38,7 +38,7 @@ const Navbar = ({ toggle }) => {
                             <NavLinks to='team'>Team</NavLinks>
                         </NavItem> */}
                         <NavBtn>
-                            <NavBtnLink to='/app'>Buy GUAC</NavBtnLink>
+                            <NavBtnLink to='/signup' target="_blank">Stay Informed</NavBtnLink>
                         </NavBtn>
                     </NavMenu>
                 </NavbarContainer>
