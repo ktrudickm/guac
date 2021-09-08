@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/guac/static/css/main.e5307a98.chunk.css",
-    "main.js": "/guac/static/js/main.e308c09d.chunk.js",
-    "main.js.map": "/guac/static/js/main.e308c09d.chunk.js.map",
+    "main.js": "/guac/static/js/main.e4ba147f.chunk.js",
+    "main.js.map": "/guac/static/js/main.e4ba147f.chunk.js.map",
     "runtime-main.js": "/guac/static/js/runtime-main.61ea30de.js",
     "runtime-main.js.map": "/guac/static/js/runtime-main.61ea30de.js.map",
-    "static/js/2.47dde9d9.chunk.js": "/guac/static/js/2.47dde9d9.chunk.js",
-    "static/js/2.47dde9d9.chunk.js.map": "/guac/static/js/2.47dde9d9.chunk.js.map",
+    "static/js/2.4467d3ea.chunk.js": "/guac/static/js/2.4467d3ea.chunk.js",
+    "static/js/2.4467d3ea.chunk.js.map": "/guac/static/js/2.4467d3ea.chunk.js.map",
     "index.html": "/guac/index.html",
     "static/css/main.e5307a98.chunk.css.map": "/guac/static/css/main.e5307a98.chunk.css.map",
-    "static/js/2.47dde9d9.chunk.js.LICENSE.txt": "/guac/static/js/2.47dde9d9.chunk.js.LICENSE.txt",
+    "static/js/2.4467d3ea.chunk.js.LICENSE.txt": "/guac/static/js/2.4467d3ea.chunk.js.LICENSE.txt",
     "static/media/Roadmap.89a0f1e7.png": "/guac/static/media/Roadmap.89a0f1e7.png",
     "static/media/Tokenomics.png": "/guac/static/media/Tokenomics.c72dc332.png",
     "static/media/avocado.png": "/guac/static/media/avocado.833fa082.png",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.61ea30de.js",
-    "static/js/2.47dde9d9.chunk.js",
+    "static/js/2.4467d3ea.chunk.js",
     "static/css/main.e5307a98.chunk.css",
-    "static/js/main.e308c09d.chunk.js"
+    "static/js/main.e4ba147f.chunk.js"
   ]
 }
