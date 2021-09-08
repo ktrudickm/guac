@@ -17,7 +17,7 @@ const Navbar = ({ toggle }) => {
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to='/'>GUAC</NavLogo>
+                    <NavLogo to='home' smooth={true} offset={-40} duration={1000}>GUAC</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
@@ -38,7 +38,7 @@ const Navbar = ({ toggle }) => {
                             <NavLinks to='team'>Team</NavLinks>
                         </NavItem> */}
                         <NavBtn>
-                            <NavBtnLink to='/buy'>Buy GUAC</NavBtnLink>
+                            <NavBtnLink to='/app'>Buy GUAC</NavBtnLink>
                         </NavBtn>
                     </NavMenu>
                 </NavbarContainer>

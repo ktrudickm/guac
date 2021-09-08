@@ -24,11 +24,11 @@ const HeroSection = () => {
                     >
                         Learn More {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
-                    <Button to='buy' onMouseEnter={onHover} 
+                    {/* <Button to='buy' onMouseEnter={onHover} 
                     onMouseLeave={onHover}
                     >
                         Purchase GUAC {hover ? <ArrowForward /> : <ArrowRight />}
-                    </Button>
+                    </Button> */}
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link as LinkR } from 'react-router-dom';
 
 export const InfoContainer = styled.div`
     color: #fff;
@@ -82,7 +83,8 @@ export const Subtitle = styled.p`
 `
 
 export const BtnWrap = styled.div`
-    display:flex;
+    /* display:flex; */
+    display: ${({ btnDisplay }) => (btnDisplay ? 'flex' : 'none')};
     justify-content: flex-start;
 `
 
@@ -96,4 +98,24 @@ export const Img = styled.img`
     margin: -70px 0 10px 0;
     padding-right: 0;
     border-radius: 10px;
+`
+
+export const BtnLink = styled(LinkR)`
+    border-radius: 50px;
+    background: #5524c9;
+    white-space: nowrap;
+    padding: 10px 22px;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: #fff;
+        color: #010606;
+    }
 `
