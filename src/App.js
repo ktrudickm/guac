@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path='/' component={Home} />
+        <Route path='/guac' component={Home} />
         <Route path='/app' component={() => { 
             window.location.href = 'https://apps.apple.com/us/app/avocado-social-investing/id1561473335'; 
             return null;
