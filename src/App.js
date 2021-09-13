@@ -8,12 +8,12 @@ function App() {
     <Router>
       <Switch>
         <Route path='/' component={Home} />
-        <Route path='/app' component={() => { 
+        <Route exact path='/app' component={() => { 
             window.location.href = 'https://apps.apple.com/us/app/avocado-social-investing/id1561473335'; 
             return null;
         }}/>
-        <Route path='/signup' component={() => { 
-            window.location.href = 'http://eepurl.com/hHIAf9'; 
+        <Route exact path='/signup' component={() => { 
+            window.location.href = 'https://eepurl.com/hHIAf9'; 
             return null;
         }}/>
       </Switch>

@@ -100,7 +100,7 @@ export const Img = styled.img`
     border-radius: 10px;
 `
 
-export const BtnLink = styled(LinkR)`
+export const BtnLink = styled.a`
     border-radius: 50px;
     background: #5524c9;
     white-space: nowrap;
