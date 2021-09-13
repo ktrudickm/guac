@@ -38,7 +38,7 @@ const Navbar = ({ toggle }) => {
                             <NavLinks to='team'>Team</NavLinks>
                         </NavItem> */}
                         <NavBtn>
-                            <NavBtnLink href='https://eepurl.com/hHIAf9' target="_blank">Stay Informed</NavBtnLink>
+                            <NavBtnLink href='http://eepurl.com/hHIAf9' target="_blank">Stay Informed</NavBtnLink>
                         </NavBtn>
                     </NavMenu>
                 </NavbarContainer>
