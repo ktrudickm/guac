@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.e5307a98.chunk.css",
-    "main.js": "/static/js/main.105cf5fe.chunk.js",
-    "main.js.map": "/static/js/main.105cf5fe.chunk.js.map",
+    "main.js": "/static/js/main.f4f361ed.chunk.js",
+    "main.js.map": "/static/js/main.f4f361ed.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e1ccb7c6.js",
     "runtime-main.js.map": "/static/js/runtime-main.e1ccb7c6.js.map",
-    "static/js/2.80cd69a8.chunk.js": "/static/js/2.80cd69a8.chunk.js",
-    "static/js/2.80cd69a8.chunk.js.map": "/static/js/2.80cd69a8.chunk.js.map",
+    "static/js/2.508490cc.chunk.js": "/static/js/2.508490cc.chunk.js",
+    "static/js/2.508490cc.chunk.js.map": "/static/js/2.508490cc.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.e5307a98.chunk.css.map": "/static/css/main.e5307a98.chunk.css.map",
-    "static/js/2.80cd69a8.chunk.js.LICENSE.txt": "/static/js/2.80cd69a8.chunk.js.LICENSE.txt",
+    "static/js/2.508490cc.chunk.js.LICENSE.txt": "/static/js/2.508490cc.chunk.js.LICENSE.txt",
     "static/media/Roadmap.89a0f1e7.png": "/static/media/Roadmap.89a0f1e7.png",
     "static/media/Tokenomics.png": "/static/media/Tokenomics.c72dc332.png",
     "static/media/avocado.png": "/static/media/avocado.833fa082.png",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e1ccb7c6.js",
-    "static/js/2.80cd69a8.chunk.js",
+    "static/js/2.508490cc.chunk.js",
     "static/css/main.e5307a98.chunk.css",
-    "static/js/main.105cf5fe.chunk.js"
+    "static/js/main.f4f361ed.chunk.js"
   ]
 }
