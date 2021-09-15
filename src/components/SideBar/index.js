@@ -26,7 +26,7 @@ const Sidebar = ({isOpen, toggle}) => {
                        {/* <SidebarLink to='team' onClick={toggle}>Team</SidebarLink> */}
                    </SidebarMenu>
                    <SideBtnWrap>
-                       <SidebarRoute to='/buy'>Buy GUAC</SidebarRoute>
+                       <SidebarRoute href='http://eepurl.com/hHIAf9' target="_blank">Buy GUAC</SidebarRoute>
                    </SideBtnWrap>
                </SidebarWrapper>
             </SidebarContainer> 

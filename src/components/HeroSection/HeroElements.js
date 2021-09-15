@@ -45,6 +45,7 @@ export const VideoBg = styled.video`
   -o-object-fit: cover;
   object-fit: cover;
   background: #232a34;
+  z-index: -100;
 `
 
 export const HeroContent = styled.div`
@@ -84,6 +85,22 @@ export const HeroP = styled.p`
 
   @media screen and (max-width: 480px) {
     font-size: 18px;
+  }
+`
+export const SecondP = styled.p`
+  margin-top: 24px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  max-width: 600px;
+  color: gray;
+
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 15px;
   }
 `
 

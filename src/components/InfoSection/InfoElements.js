@@ -1,25 +1,25 @@
 import styled from 'styled-components';
-import { Link as LinkR } from 'react-router-dom';
+// import { Link as LinkR } from 'react-router-dom';
 
 export const InfoContainer = styled.div`
     color: #fff;
     background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
 
     @media screen and (max-width: 768px) {
-        padding: 100px 0;
-        height: 1300px;
+        padding: 130px 0;
+        height: 1100px;
     }
 `
 
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 800px;
+    height: 600px;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
     margin-left: auto;
-    padding: 0 24px;
+    padding: 0 30px;
     justify-content: center;
 `
 
@@ -98,6 +98,7 @@ export const Img = styled.img`
     margin: -70px 0 10px 0;
     padding-right: 0;
     border-radius: 10px;
+    
 `
 
 export const BtnLink = styled.a`

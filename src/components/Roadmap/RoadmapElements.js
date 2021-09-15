@@ -15,7 +15,7 @@ export const RoadmapContainer = styled.div`
     }
 
     @media screen and (max-width: 480px) {
-        height: 200px;
+        height: 300px;
     }
 `
 

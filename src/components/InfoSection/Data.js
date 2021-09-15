@@ -24,7 +24,7 @@ export const homeObjTwo = {
     topLine: 'The GUAC Token',
     headline: 'The Guac Token is the native asset to the Avocado ecosystem. ',
     description: 'Here are the tokenomics of the Guac token.',
-    btnDisplau: false,
+    btnDisplay: false,
     buttonLabel: 'Get Started',
     imgStart: true,
     img: require('../../images/Tokenomics.png').default,

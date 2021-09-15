@@ -27,7 +27,7 @@ const Features = () => {
                 <FeaturesCard>
                     <FeaturesIcon src={Icon2} />
                     <FeaturesH2>Product Discounts</FeaturesH2>
-                    <FeaturesP>Spend Guac to receive discounts on al services on the platform. These will include access to private pits and financial courses.</FeaturesP>
+                    <FeaturesP>Spend Guac to receive discounts on all services on the platform. These will include access to private pits and financial courses.</FeaturesP>
                 </FeaturesCard>
                 <FeaturesCard>
                     <FeaturesIcon src={Icon3} />
